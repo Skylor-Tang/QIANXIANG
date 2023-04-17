@@ -1,0 +1,92 @@
+a {
+    color: #222;
+    font-weight: blod;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #315efb;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap; /* flex-direction: row; flex-wrap: nowrap; */
+    justify-content: flex-start;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.search_img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.search_img img {
+    height: 150px;
+}
+
+/*搜索框样式**/
+.search_form{
+    margin: 0 auto;
+    min-height: 200px;
+}
+.search_form form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.search_form input[type="text"] {
+    width: 500px;
+    border-width: 0.1px 0.1px 0.1px 0.1px;
+    border-color: #999;
+    height: 40px;
+    font-size: 14px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    /* border-top-right-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    /* border-bottom-right-radius: 10px; */
+}
+
+.search_form input[type="button"] {
+    width: 100px;
+    height: 45px;
+    background: #3385FF;
+    color: #fff;
+    border-width: 0.1px 0.1px 0.1px 0.1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.search_form input[type="button"]:hover{
+    cursor: pointer;
+}
+
+.footer {
+    color: #999;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    flex-flow: row nowrap; /* flex-direction: row; flex-wrap: nowrap; */
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer li a {
+    color: #999;
+}
